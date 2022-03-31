@@ -1,10 +1,13 @@
 import "./App.css";
-import Content from "./components/Content/Content";
 import 'antd/dist/antd.css';
+import Contact from "./components/Contact/Contact";
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+</style>
 
 function App() {
   return <div className="App">
-    <Content />
+    <Contact />
   </div>;
 }
 
